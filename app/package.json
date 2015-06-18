@@ -1,0 +1,24 @@
+{
+  "name": "punch-counter",
+  "version": "0.0.0a",
+  "description": "Records and displays punches that made contact",
+  "author": "paulvstheworld <paulvstheworld@gmail.com>",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/paulvstheworld/punch-counter"
+  },
+  "bugs": {
+    "url": "https://github.com/paulvstheworld/punch-counter/issues"
+  },
+  "keywords": [
+    "boxing", 
+    "punches", 
+    "punch", 
+    "node"
+  ],
+  "dependencies": {},
+  "preferGlobal": false,
+  "private": true,
+  "license": "MIT"
+}
