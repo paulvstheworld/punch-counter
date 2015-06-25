@@ -1,6 +1,3 @@
-Content-Type: text/enriched
-Text-Width: 70
-
 const int PIN_BUTTON = 7;
 const int PIN_LED = 13;
 const int BAUD_RATE = 9600;
@@ -36,7 +33,6 @@ void loop() {
 
 
   // button resting state
-
   else {
     digitalWrite(PIN_LED, LOW);
   }
