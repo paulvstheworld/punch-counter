@@ -1,5 +1,5 @@
-var SerialPort = require('serialport').SerialPort;
-var serialPort = new SerialPort('/dev/cu.usbmodem411', { baudrate:57600 });
+var SerialPort = require('serialport');
+var serialPort = new SerialPort('/dev/cu.usbmodem1411', { baudrate:57600 });
 
 serialPort.on('open', function(data) {
   console.log('open');
